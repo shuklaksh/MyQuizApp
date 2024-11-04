@@ -5,7 +5,9 @@ import quizRoutes from './routes/quizRoutes';
 const app: Application = express();
 const PORT = 8000;
 
-app.use(cors());
+app.use(cors({
+  origin: '*', // Allow all origins for testing (adjust this in production)
+}));
 app.use(express.json());
 
 app.use('/api/quiz', quizRoutes);
