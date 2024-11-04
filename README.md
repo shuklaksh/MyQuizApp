@@ -12,7 +12,7 @@ To get started with this project, follow the steps below:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/shuklaksh/quizApp.git
+   git clone https://github.com/shuklaksh/MyQuizApp-server.git
 
 2. **Navigate into the project directory**:
    ```bash
