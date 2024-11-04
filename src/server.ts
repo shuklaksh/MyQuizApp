@@ -10,6 +10,10 @@ app.use(cors({
 }));
 app.use(express.json());
 
+app.get('/test',(res: any, req: any) => {
+  res.send("Running")
+})
+
 app.use('/api/quiz', quizRoutes);
 
 app.listen(PORT, () => {
