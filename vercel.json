@@ -11,11 +11,6 @@
         "src": "/api/(.*)",    
         "dest": "/src/server.ts"  
       }
-    ],
-    "functions": {
-      "api/**/*.ts": {
-        "runtime": "nodejs14.x" 
-      }
-    }
+    ]
   }
   
